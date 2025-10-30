@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>AI Tool Selector</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>AI Tool Selector</h1>
+    <p>Select a business function to see applicable AI tool types, then choose a tool type to get recommended tools.</p>
+
+    <label for="functionSelect">Business Function</label>
+    <select id="functionSelect">
+      <option value="">-- select a function --</option>
+    </select>
+
+    <div id="toolTypeArea" class="hidden">
+      <label for="toolTypeSelect">AI Tool Type</label>
+      <select id="toolTypeSelect">
+        <option value="">-- select a tool type --</option>
+      </select>
+    </div>
+
+    <div id="recommendations" class="hidden">
+      <h2>Recommended Tools</h2>
+      <ul id="toolList"></ul>
+    </div>
+
+    <footer>
+      <small>Based on a provided AI Tool Matrix (group project). Packaged as a GitHub-style repo.</small>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
