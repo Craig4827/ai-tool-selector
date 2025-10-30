@@ -1,15 +1,11 @@
-# AI Tool Selector (Streamlit)
+# AI Tool Selector Pro (JSON Snapshot)
+This Streamlit app is a snapshot version that reads pre-converted JSON (from your Excel) for faster testing.
 
-A lightweight Streamlit app to explore recommended AI tools by business function.
+## How to run locally
+1. Unzip the package.
+2. Install requirements: `pip install -r requirements.txt`
+3. Run: `streamlit run app.py`
 
-## Run locally
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-```
-
-## Deploy on Streamlit Cloud
-1. Push this project to GitHub.
-2. Go to https://share.streamlit.io
-3. Choose your repo.
-4. Set main file path to `app.py`.
+## Notes
+- This snapshot was generated from your Excel file `AI Tool Matrix.xlsx`.
+- To update the snapshot, re-run the converter or ask me to regenerate it.

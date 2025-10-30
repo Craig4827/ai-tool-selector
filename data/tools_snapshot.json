@@ -1,0 +1,1773 @@
+{
+  "business_functions": {
+    "Operations & Processes": {
+      "AI Tool Type": {
+        "activities": [
+          "Marketing & Branding"
+        ],
+        "tools": []
+      }
+    },
+    "X": {
+      "Large Language Model (LLM) Assistants": {
+        "activities": [
+          "X"
+        ],
+        "tools": [
+          {
+            "name": "ChatGPT",
+            "ratings": {
+              "AR": "Low",
+              "AT": "High",
+              "AU": "High"
+            },
+            "cost": "Freemium/Subscription"
+          },
+          {
+            "name": "Claude",
+            "ratings": {
+              "AR": "Low",
+              "AT": "High",
+              "AU": "High"
+            },
+            "cost": "Freemium/Subscription"
+          },
+          {
+            "name": "Gemini",
+            "ratings": {
+              "AR": "Low",
+              "AT": "High",
+              "AU": "High"
+            },
+            "cost": "Freemium/Subscription"
+          },
+          {
+            "name": "GPT-4o",
+            "ratings": {
+              "AR": "Low",
+              "AT": "High",
+              "AU": "High"
+            },
+            "cost": "Freemium/Subscription"
+          },
+          {
+            "name": "Gemini Pro",
+            "ratings": {
+              "AR": "Low",
+              "AT": "High",
+              "AU": "High"
+            },
+            "cost": "Freemium/Subscription"
+          },
+          {
+            "name": "Anthropic Opus",
+            "ratings": {
+              "AR": "Low",
+              "AT": "High",
+              "AU": "High"
+            },
+            "cost": "Subscription"
+          },
+          {
+            "name": "AutoGPT",
+            "ratings": {
+              "AR": "High",
+              "AT": "Medium",
+              "AU": "Medium"
+            },
+            "cost": "Free/Open-source"
+          }
+        ]
+      },
+      "Robotic Process Automation (RPA) AI": {
+        "activities": [
+          "X"
+        ],
+        "tools": [
+          {
+            "name": "UiPath",
+            "ratings": {
+              "AR": "High",
+              "AT": "High",
+              "AU": "High"
+            },
+            "cost": "Enterprise Licensing"
+          },
+          {
+            "name": "Automation Anywhere",
+            "ratings": {
+              "AR": "High",
+              "AT": "High",
+              "AU": "High"
+            },
+            "cost": "Enterprise Licensing"
+          },
+          {
+            "name": "Blue Prism",
+            "ratings": {
+              "AR": "High",
+              "AT": "High",
+              "AU": "High"
+            },
+            "cost": "Enterprise Licensing"
+          }
+        ]
+      },
+      "Intelligent Document Processing AI": {
+        "activities": [],
+        "tools": [
+          {
+            "name": "ABBYY FlexiCapture",
+            "ratings": {
+              "AR": "High",
+              "AT": "High",
+              "AU": "Medium"
+            },
+            "cost": "Enterprise Licensing"
+          },
+          {
+            "name": "Hyperscience",
+            "ratings": {
+              "AR": "High",
+              "AT": "High",
+              "AU": "Medium"
+            },
+            "cost": "Enterprise Licensing"
+          },
+          {
+            "name": "Rossum",
+            "ratings": {
+              "AR": "Medium",
+              "AT": "Medium",
+              "AU": "Medium"
+            },
+            "cost": "Subscription"
+          }
+        ]
+      },
+      "Workflow Orchestration AI": {
+        "activities": [
+          "X"
+        ],
+        "tools": [
+          {
+            "name": "Apache Airflow",
+            "ratings": {
+              "AR": "High",
+              "AT": "High",
+              "AU": "Medium"
+            },
+            "cost": "Free/Open-source"
+          },
+          {
+            "name": "Prefect",
+            "ratings": {
+              "AR": "Medium",
+              "AT": "Medium",
+              "AU": "Medium"
+            },
+            "cost": "Freemium/Subscription"
+          },
+          {
+            "name": "Harness AI",
+            "ratings": {
+              "AR": "Medium",
+              "AT": "Medium",
+              "AU": "Medium"
+            },
+            "cost": "Subscription"
+          }
+        ]
+      },
+      "Smart Scanning & Data Extraction AI": {
+        "activities": [],
+        "tools": [
+          {
+            "name": "Docsumo",
+            "ratings": {
+              "AR": "Medium",
+              "AT": "Medium",
+              "AU": "Medium"
+            },
+            "cost": "Subscription"
+          },
+          {
+            "name": "Amazon Textract",
+            "ratings": {
+              "AR": "Medium",
+              "AT": "High",
+              "AU": "Medium"
+            },
+            "cost": "Pay-as-you-go"
+          },
+          {
+            "name": "Kofax",
+            "ratings": {
+              "AR": "Medium",
+              "AT": "High",
+              "AU": "Medium"
+            },
+            "cost": "Enterprise Licensing"
+          }
+        ]
+      },
+      "Descriptive Analytics AI": {
+        "activities": [
+          "X"
+        ],
+        "tools": [
+          {
+            "name": "Tableau AI",
+            "ratings": {
+              "AR": "Medium",
+              "AT": "High",
+              "AU": "High"
+            },
+            "cost": "Enterprise Licensing"
+          },
+          {
+            "name": "Power BI Copilot",
+            "ratings": {
+              "AR": "Low",
+              "AT": "High",
+              "AU": "High"
+            },
+            "cost": "Subscription"
+          },
+          {
+            "name": "Qlik Sense AI",
+            "ratings": {
+              "AR": "Medium",
+              "AT": "High",
+              "AU": "High"
+            },
+            "cost": "Enterprise Licensing"
+          }
+        ]
+      },
+      "Predictive Analytics AI": {
+        "activities": [
+          "X"
+        ],
+        "tools": [
+          {
+            "name": "DataRobot",
+            "ratings": {
+              "AR": "High",
+              "AT": "High",
+              "AU": "High"
+            },
+            "cost": "Enterprise Licensing"
+          },
+          {
+            "name": "RapidMiner",
+            "ratings": {
+              "AR": "High",
+              "AT": "Medium",
+              "AU": "High"
+            },
+            "cost": "Subscription"
+          },
+          {
+            "name": "IBM SPSS Modeler",
+            "ratings": {
+              "AR": "High",
+              "AT": "High",
+              "AU": "High"
+            },
+            "cost": "Enterprise Licensing"
+          }
+        ]
+      },
+      "Prescriptive Analytics AI": {
+        "activities": [],
+        "tools": [
+          {
+            "name": "AIMMS",
+            "ratings": {
+              "AR": "High",
+              "AT": "High",
+              "AU": "Medium"
+            },
+            "cost": "Enterprise Licensing"
+          },
+          {
+            "name": "FICO Xpress Insight",
+            "ratings": {
+              "AR": "High",
+              "AT": "High",
+              "AU": "Medium"
+            },
+            "cost": "Enterprise Licensing"
+          },
+          {
+            "name": "IBM Decision Optimization",
+            "ratings": {
+              "AR": "High",
+              "AT": "High",
+              "AU": "Medium"
+            },
+            "cost": "Enterprise Licensing"
+          }
+        ]
+      },
+      "Business Intelligence with AI": {
+        "activities": [
+          "X"
+        ],
+        "tools": [
+          {
+            "name": "Tableau AI",
+            "ratings": {
+              "AR": "Medium",
+              "AT": "High",
+              "AU": "High"
+            },
+            "cost": "Enterprise Licensing"
+          },
+          {
+            "name": "Power BI Copilot",
+            "ratings": {
+              "AR": "Low",
+              "AT": "High",
+              "AU": "High"
+            },
+            "cost": "Subscription"
+          },
+          {
+            "name": "Qlik Sense AI",
+            "ratings": {
+              "AR": "Medium",
+              "AT": "High",
+              "AU": "High"
+            },
+            "cost": "Enterprise Licensing"
+          },
+          {
+            "name": "ThoughtSpot",
+            "ratings": {
+              "AR": "Medium",
+              "AT": "High",
+              "AU": "High"
+            },
+            "cost": "Enterprise Licensing"
+          },
+          {
+            "name": "Microsoft Power BI",
+            "ratings": {
+              "AR": "Medium",
+              "AT": "Medium",
+              "AU": "Medium"
+            },
+            "cost": "Subscription"
+          }
+        ]
+      },
+      "AutoML Tools": {
+        "activities": [
+          "X"
+        ],
+        "tools": [
+          {
+            "name": "DataRobot",
+            "ratings": {
+              "AR": "High",
+              "AT": "High",
+              "AU": "High"
+            },
+            "cost": "Enterprise Licensing"
+          },
+          {
+            "name": "RapidMiner",
+            "ratings": {
+              "AR": "High",
+              "AT": "Medium",
+              "AU": "High"
+            },
+            "cost": "Subscription"
+          },
+          {
+            "name": "Google Vertex AI",
+            "ratings": {
+              "AR": "High",
+              "AT": "High",
+              "AU": "High"
+            },
+            "cost": "Pay-as-you-go"
+          },
+          {
+            "name": "H2O.ai",
+            "ratings": {
+              "AR": "High",
+              "AT": "High",
+              "AU": "High"
+            },
+            "cost": "Freemium/Subscription"
+          },
+          {
+            "name": "DataRobot AutoML",
+            "ratings": {
+              "AR": "Medium",
+              "AT": "Medium",
+              "AU": "Medium"
+            },
+            "cost": "Subscription"
+          }
+        ]
+      },
+      "Simulation & Digital Twin AI": {
+        "activities": [],
+        "tools": [
+          {
+            "name": "Siemens MindSphere",
+            "ratings": {
+              "AR": "High",
+              "AT": "High",
+              "AU": "High"
+            },
+            "cost": "Enterprise Licensing"
+          },
+          {
+            "name": "AnyLogic",
+            "ratings": {
+              "AR": "High",
+              "AT": "Medium",
+              "AU": "Medium"
+            },
+            "cost": "Enterprise Licensing"
+          },
+          {
+            "name": "Ansys Twin Builder",
+            "ratings": {
+              "AR": "High",
+              "AT": "High",
+              "AU": "Medium"
+            },
+            "cost": "Enterprise Licensing"
+          }
+        ]
+      },
+      "Threat & Anomaly Detection AI": {
+        "activities": [],
+        "tools": [
+          {
+            "name": "Darktrace",
+            "ratings": {
+              "AR": "High",
+              "AT": "High",
+              "AU": "High"
+            },
+            "cost": "Enterprise Licensing"
+          },
+          {
+            "name": "Vectra AI",
+            "ratings": {
+              "AR": "High",
+              "AT": "High",
+              "AU": "High"
+            },
+            "cost": "Enterprise Licensing"
+          },
+          {
+            "name": "Splunk AI",
+            "ratings": {
+              "AR": "High",
+              "AT": "High",
+              "AU": "High"
+            },
+            "cost": "Enterprise Licensing"
+          }
+        ]
+      },
+      "Fraud Detection AI": {
+        "activities": [],
+        "tools": [
+          {
+            "name": "Kount",
+            "ratings": {
+              "AR": "Medium",
+              "AT": "Medium",
+              "AU": "Medium"
+            },
+            "cost": "Subscription"
+          },
+          {
+            "name": "Riskified",
+            "ratings": {
+              "AR": "Medium",
+              "AT": "High",
+              "AU": "High"
+            },
+            "cost": "Enterprise Licensing"
+          },
+          {
+            "name": "Feedzai",
+            "ratings": {
+              "AR": "High",
+              "AT": "High",
+              "AU": "High"
+            },
+            "cost": "Enterprise Licensing"
+          }
+        ]
+      },
+      "Compliance Monitoring AI": {
+        "activities": [],
+        "tools": [
+          {
+            "name": "LogicGate AI",
+            "ratings": {
+              "AR": "Medium",
+              "AT": "Medium",
+              "AU": "Medium"
+            },
+            "cost": "Enterprise Licensing"
+          },
+          {
+            "name": "Theta Lake",
+            "ratings": {
+              "AR": "Medium",
+              "AT": "Medium",
+              "AU": "Medium"
+            },
+            "cost": "Subscription"
+          },
+          {
+            "name": "OneTrust",
+            "ratings": {
+              "AR": "Medium",
+              "AT": "Medium",
+              "AU": "Medium"
+            },
+            "cost": "Subscription"
+          }
+        ]
+      },
+      "Meeting Assistants": {
+        "activities": [],
+        "tools": [
+          {
+            "name": "Otter.ai",
+            "ratings": {
+              "AR": "Low",
+              "AT": "High",
+              "AU": "High"
+            },
+            "cost": "Freemium/Subscription"
+          },
+          {
+            "name": "Fireflies.ai",
+            "ratings": {
+              "AR": "Low",
+              "AT": "High",
+              "AU": "High"
+            },
+            "cost": "Freemium/Subscription"
+          },
+          {
+            "name": "Avoma",
+            "ratings": {
+              "AR": "Low",
+              "AT": "High",
+              "AU": "High"
+            },
+            "cost": "Subscription"
+          }
+        ]
+      },
+      "Project Management AI": {
+        "activities": [
+          "X"
+        ],
+        "tools": [
+          {
+            "name": "ClickUp AI",
+            "ratings": {
+              "AR": "Low",
+              "AT": "High",
+              "AU": "High"
+            },
+            "cost": "Freemium/Subscription"
+          },
+          {
+            "name": "Asana Intelligence",
+            "ratings": {
+              "AR": "Low",
+              "AT": "High",
+              "AU": "High"
+            },
+            "cost": "Subscription"
+          },
+          {
+            "name": "Jira AI",
+            "ratings": {
+              "AR": "Medium",
+              "AT": "High",
+              "AU": "High"
+            },
+            "cost": "Subscription"
+          }
+        ]
+      },
+      "Industrial AI": {
+        "activities": [],
+        "tools": [
+          {
+            "name": "Bright Machines",
+            "ratings": {
+              "AR": "High",
+              "AT": "High",
+              "AU": "High"
+            },
+            "cost": "Enterprise Licensing"
+          },
+          {
+            "name": "Uptake",
+            "ratings": {
+              "AR": "High",
+              "AT": "High",
+              "AU": "High"
+            },
+            "cost": "Enterprise Licensing"
+          },
+          {
+            "name": "Instrumental AI",
+            "ratings": {
+              "AR": "High",
+              "AT": "High",
+              "AU": "High"
+            },
+            "cost": "Enterprise Licensing"
+          }
+        ]
+      }
+    }
+  },
+  "all_tool_types": [
+    "AI Governance & Ethical AI Tools",
+    "Agentic AI Systems",
+    "Audio & Voice AI",
+    "AutoML Tools",
+    "Business Intelligence with AI",
+    "Code Generation AI",
+    "Collaboration AI Enhancements",
+    "Compliance Monitoring AI",
+    "Conversational AI / Chatbots",
+    "Creative/Design AI",
+    "Custom Model Development Tools",
+    "Data Cleaning & Wrangling AI",
+    "Descriptive Analytics AI",
+    "Document Q&A Systems",
+    "Enterprise Knowledge Management AI",
+    "Fraud Detection AI",
+    "Healthcare Diagnostics AI",
+    "Identity & Access AI",
+    "Image Generation AI",
+    "Industrial AI",
+    "Intelligent Document Processing AI",
+    "Knowledge Capture AI",
+    "Large Language Model (LLM) Assistants",
+    "Legal/Compliance AI",
+    "MLOps Platforms",
+    "Meeting Assistants",
+    "Multimodal AI Assistants",
+    "Personalization Engines",
+    "Predictive Analytics AI",
+    "Prescriptive Analytics AI",
+    "Project Management AI",
+    "Recommendation Systems",
+    "Robotic Process Automation (RPA) AI",
+    "Semantic Search & Vector Databases",
+    "Sentiment & Emotion Analysis AI",
+    "Simulation & Digital Twin AI",
+    "Smart Scanning & Data Extraction AI",
+    "Text Generation AI",
+    "Threat & Anomaly Detection AI",
+    "Video Generation AI",
+    "Virtual Voice Agents",
+    "Workflow Orchestration AI"
+  ],
+  "all_tools": [
+    "ABBYY FlexiCapture",
+    "AIMMS",
+    "Ada",
+    "Adobe Target AI",
+    "Aidoc",
+    "Amazon Personalize",
+    "Amazon Textract",
+    "Ansys Twin Builder",
+    "Anthropic Opus",
+    "AnyLogic",
+    "Apache Airflow",
+    "Arthur AI",
+    "Asana Intelligence",
+    "AutoGPT",
+    "Automation Anywhere",
+    "Avoma",
+    "Blue Prism",
+    "Brandwatch AI",
+    "Bright Machines",
+    "Canva AI",
+    "Casetext",
+    "ChatGPT",
+    "Clarabridge",
+    "Claude",
+    "ClickUp AI",
+    "Confluence AI",
+    "Copy.ai",
+    "Coveo",
+    "CrewAI",
+    "DALL\u00b7E",
+    "Darktrace",
+    "DataRobot",
+    "DataRobot AutoML",
+    "Descript",
+    "Devin",
+    "Docsumo",
+    "Domino Data Lab",
+    "Drift",
+    "Dynamic Yield",
+    "ElevenLabs",
+    "FICO Xpress Insight",
+    "Feedzai",
+    "Fiddler AI",
+    "Figma AI",
+    "Fireflies.ai",
+    "Five9 IVA",
+    "GPT-4o",
+    "Gemini",
+    "Gemini Pro",
+    "GitHub Copilot",
+    "Google Vertex AI",
+    "Guru",
+    "H2O.ai",
+    "Harness AI",
+    "Haystack",
+    "Hugging Face",
+    "Hyperscience",
+    "IBM Decision Optimization",
+    "IBM SPSS Modeler",
+    "Instrumental AI",
+    "Intercom AI",
+    "Jasper",
+    "Jira AI",
+    "Knoema",
+    "Kofax",
+    "Kount",
+    "Kubeflow",
+    "LangChain with RAG",
+    "LogicGate AI",
+    "Luminance AI",
+    "MLflow",
+    "MS Teams Copilot",
+    "Mem AI",
+    "Microsoft Entra",
+    "Microsoft Power BI",
+    "MidJourney",
+    "MonkeyLearn",
+    "Murf AI",
+    "Notion AI",
+    "Observe.ai",
+    "Obsidian AI",
+    "Okta AI",
+    "OneTrust",
+    "Optimizely",
+    "Otter.ai",
+    "PatSnap",
+    "PathAI",
+    "Paxata",
+    "Persado",
+    "Pictory",
+    "Pinecone",
+    "Ping Identity",
+    "Power BI Copilot",
+    "Prefect",
+    "PyTorch",
+    "Qlik Sense AI",
+    "RapidMiner",
+    "Replit Ghostwriter",
+    "Riskified",
+    "Roam Research",
+    "Rossum",
+    "Runway",
+    "Siemens MindSphere",
+    "Slack AI",
+    "Splunk AI",
+    "Stable Diffusion",
+    "Synthesia",
+    "Tableau AI",
+    "Talend Data Prep",
+    "Talkdesk AI",
+    "TensorFlow",
+    "Theta Lake",
+    "ThoughtSpot",
+    "Trifacta",
+    "TruEra",
+    "UiPath",
+    "Uizard",
+    "Uptake",
+    "V0.dev",
+    "Vectra AI",
+    "Vespa",
+    "Weaviate",
+    "Writesonic",
+    "Zebra Medical Vision"
+  ],
+  "unattached_tool_types": [
+    "Multimodal AI Assistants",
+    "Agentic AI Systems",
+    "Text Generation AI",
+    "Image Generation AI",
+    "Video Generation AI",
+    "Audio & Voice AI",
+    "Code Generation AI",
+    "Data Cleaning & Wrangling AI",
+    "Custom Model Development Tools",
+    "MLOps Platforms",
+    "Semantic Search & Vector Databases",
+    "Document Q&A Systems",
+    "Recommendation Systems",
+    "Enterprise Knowledge Management AI",
+    "Conversational AI / Chatbots",
+    "Virtual Voice Agents",
+    "Sentiment & Emotion Analysis AI",
+    "Personalization Engines",
+    "Identity & Access AI",
+    "AI Governance & Ethical AI Tools",
+    "Collaboration AI Enhancements",
+    "Knowledge Capture AI",
+    "Legal/Compliance AI",
+    "Healthcare Diagnostics AI",
+    "Creative/Design AI"
+  ],
+  "orphaned_tool_types": {
+    "Text Generation AI": {
+      "tools": [
+        {
+          "name": "ChatGPT",
+          "ratings": {
+            "AR": "Low",
+            "AT": "High",
+            "AU": "High"
+          },
+          "cost": "Freemium/Subscription"
+        },
+        {
+          "name": "Claude",
+          "ratings": {
+            "AR": "Low",
+            "AT": "High",
+            "AU": "High"
+          },
+          "cost": "Freemium/Subscription"
+        },
+        {
+          "name": "Gemini",
+          "ratings": {
+            "AR": "Low",
+            "AT": "High",
+            "AU": "High"
+          },
+          "cost": "Freemium/Subscription"
+        },
+        {
+          "name": "GPT-4o",
+          "ratings": {
+            "AR": "Low",
+            "AT": "High",
+            "AU": "High"
+          },
+          "cost": "Freemium/Subscription"
+        },
+        {
+          "name": "Gemini Pro",
+          "ratings": {
+            "AR": "Low",
+            "AT": "High",
+            "AU": "High"
+          },
+          "cost": "Freemium/Subscription"
+        },
+        {
+          "name": "Jasper",
+          "ratings": {
+            "AR": "Low",
+            "AT": "High",
+            "AU": "High"
+          },
+          "cost": "Subscription"
+        },
+        {
+          "name": "Copy.ai",
+          "ratings": {
+            "AR": "Low",
+            "AT": "High",
+            "AU": "High"
+          },
+          "cost": "Subscription"
+        },
+        {
+          "name": "Writesonic",
+          "ratings": {
+            "AR": "Low",
+            "AT": "High",
+            "AU": "High"
+          },
+          "cost": "Freemium/Subscription"
+        }
+      ]
+    },
+    "Code Generation AI": {
+      "tools": [
+        {
+          "name": "ChatGPT",
+          "ratings": {
+            "AR": "Low",
+            "AT": "High",
+            "AU": "High"
+          },
+          "cost": "Freemium/Subscription"
+        },
+        {
+          "name": "Claude",
+          "ratings": {
+            "AR": "Low",
+            "AT": "High",
+            "AU": "High"
+          },
+          "cost": "Freemium/Subscription"
+        },
+        {
+          "name": "Gemini",
+          "ratings": {
+            "AR": "Low",
+            "AT": "High",
+            "AU": "High"
+          },
+          "cost": "Freemium/Subscription"
+        },
+        {
+          "name": "GPT-4o",
+          "ratings": {
+            "AR": "Low",
+            "AT": "High",
+            "AU": "High"
+          },
+          "cost": "Freemium/Subscription"
+        },
+        {
+          "name": "Gemini Pro",
+          "ratings": {
+            "AR": "Low",
+            "AT": "High",
+            "AU": "High"
+          },
+          "cost": "Freemium/Subscription"
+        },
+        {
+          "name": "Devin",
+          "ratings": {
+            "AR": "High",
+            "AT": "Medium",
+            "AU": "High"
+          },
+          "cost": "Subscription"
+        },
+        {
+          "name": "GitHub Copilot",
+          "ratings": {
+            "AR": "Medium",
+            "AT": "High",
+            "AU": "High"
+          },
+          "cost": "Subscription"
+        },
+        {
+          "name": "Replit Ghostwriter",
+          "ratings": {
+            "AR": "Medium",
+            "AT": "Medium",
+            "AU": "Medium"
+          },
+          "cost": "Subscription"
+        },
+        {
+          "name": "V0.dev",
+          "ratings": {
+            "AR": "Medium",
+            "AT": "Medium",
+            "AU": "Medium"
+          },
+          "cost": "Freemium/Subscription"
+        }
+      ]
+    },
+    "Document Q&A Systems": {
+      "tools": [
+        {
+          "name": "ChatGPT",
+          "ratings": {
+            "AR": "Low",
+            "AT": "High",
+            "AU": "High"
+          },
+          "cost": "Freemium/Subscription"
+        },
+        {
+          "name": "Claude",
+          "ratings": {
+            "AR": "Low",
+            "AT": "High",
+            "AU": "High"
+          },
+          "cost": "Freemium/Subscription"
+        },
+        {
+          "name": "Gemini",
+          "ratings": {
+            "AR": "Low",
+            "AT": "High",
+            "AU": "High"
+          },
+          "cost": "Freemium/Subscription"
+        },
+        {
+          "name": "GPT-4o",
+          "ratings": {
+            "AR": "Low",
+            "AT": "High",
+            "AU": "High"
+          },
+          "cost": "Freemium/Subscription"
+        },
+        {
+          "name": "Knoema",
+          "ratings": {
+            "AR": "Medium",
+            "AT": "Medium",
+            "AU": "Medium"
+          },
+          "cost": "Subscription"
+        },
+        {
+          "name": "Haystack",
+          "ratings": {
+            "AR": "High",
+            "AT": "Medium",
+            "AU": "Medium"
+          },
+          "cost": "Free/Open-source"
+        },
+        {
+          "name": "LangChain with RAG",
+          "ratings": {
+            "AR": "High",
+            "AT": "Medium",
+            "AU": "High"
+          },
+          "cost": "Free/Open-source"
+        }
+      ]
+    },
+    "Multimodal AI Assistants": {
+      "tools": [
+        {
+          "name": "Gemini",
+          "ratings": {
+            "AR": "Low",
+            "AT": "High",
+            "AU": "High"
+          },
+          "cost": "Freemium/Subscription"
+        },
+        {
+          "name": "GPT-4o",
+          "ratings": {
+            "AR": "Low",
+            "AT": "High",
+            "AU": "High"
+          },
+          "cost": "Freemium/Subscription"
+        },
+        {
+          "name": "Gemini Pro",
+          "ratings": {
+            "AR": "Low",
+            "AT": "High",
+            "AU": "High"
+          },
+          "cost": "Freemium/Subscription"
+        },
+        {
+          "name": "Anthropic Opus",
+          "ratings": {
+            "AR": "Low",
+            "AT": "High",
+            "AU": "High"
+          },
+          "cost": "Subscription"
+        }
+      ]
+    },
+    "Agentic AI Systems": {
+      "tools": [
+        {
+          "name": "AutoGPT",
+          "ratings": {
+            "AR": "High",
+            "AT": "Medium",
+            "AU": "Medium"
+          },
+          "cost": "Free/Open-source"
+        },
+        {
+          "name": "CrewAI",
+          "ratings": {
+            "AR": "High",
+            "AT": "Medium",
+            "AU": "Medium"
+          },
+          "cost": "Free/Open-source"
+        },
+        {
+          "name": "Devin",
+          "ratings": {
+            "AR": "High",
+            "AT": "Medium",
+            "AU": "High"
+          },
+          "cost": "Subscription"
+        }
+      ]
+    },
+    "Image Generation AI": {
+      "tools": [
+        {
+          "name": "MidJourney",
+          "ratings": {
+            "AR": "Medium",
+            "AT": "High",
+            "AU": "High"
+          },
+          "cost": "Subscription"
+        },
+        {
+          "name": "DALL\u00b7E",
+          "ratings": {
+            "AR": "Low",
+            "AT": "High",
+            "AU": "High"
+          },
+          "cost": "Freemium/Subscription"
+        },
+        {
+          "name": "Stable Diffusion",
+          "ratings": {
+            "AR": "High",
+            "AT": "Medium",
+            "AU": "High"
+          },
+          "cost": "Free/Open-source"
+        }
+      ]
+    },
+    "Video Generation AI": {
+      "tools": [
+        {
+          "name": "Synthesia",
+          "ratings": {
+            "AR": "Low",
+            "AT": "High",
+            "AU": "High"
+          },
+          "cost": "Subscription"
+        },
+        {
+          "name": "Runway",
+          "ratings": {
+            "AR": "Medium",
+            "AT": "High",
+            "AU": "Medium"
+          },
+          "cost": "Freemium/Subscription"
+        },
+        {
+          "name": "Pictory",
+          "ratings": {
+            "AR": "Low",
+            "AT": "High",
+            "AU": "Medium"
+          },
+          "cost": "Subscription"
+        }
+      ]
+    },
+    "Audio & Voice AI": {
+      "tools": [
+        {
+          "name": "ElevenLabs",
+          "ratings": {
+            "AR": "Low",
+            "AT": "High",
+            "AU": "High"
+          },
+          "cost": "Freemium/Subscription"
+        },
+        {
+          "name": "Descript",
+          "ratings": {
+            "AR": "Low",
+            "AT": "High",
+            "AU": "Medium"
+          },
+          "cost": "Freemium/Subscription"
+        },
+        {
+          "name": "Murf AI",
+          "ratings": {
+            "AR": "Low",
+            "AT": "High",
+            "AU": "Medium"
+          },
+          "cost": "Subscription"
+        }
+      ]
+    },
+    "Creative/Design AI": {
+      "tools": [
+        {
+          "name": "V0.dev",
+          "ratings": {
+            "AR": "Medium",
+            "AT": "Medium",
+            "AU": "Medium"
+          },
+          "cost": "Freemium/Subscription"
+        },
+        {
+          "name": "Figma AI",
+          "ratings": {
+            "AR": "Low",
+            "AT": "High",
+            "AU": "High"
+          },
+          "cost": "Freemium/Subscription"
+        },
+        {
+          "name": "Canva AI",
+          "ratings": {
+            "AR": "Low",
+            "AT": "High",
+            "AU": "High"
+          },
+          "cost": "Freemium/Subscription"
+        },
+        {
+          "name": "Uizard",
+          "ratings": {
+            "AR": "Low",
+            "AT": "Medium",
+            "AU": "Medium"
+          },
+          "cost": "Freemium/Subscription"
+        }
+      ]
+    },
+    "Data Cleaning & Wrangling AI": {
+      "tools": [
+        {
+          "name": "Trifacta",
+          "ratings": {
+            "AR": "Medium",
+            "AT": "Medium",
+            "AU": "Medium"
+          },
+          "cost": "Subscription"
+        },
+        {
+          "name": "Paxata",
+          "ratings": {
+            "AR": "Medium",
+            "AT": "Medium",
+            "AU": "Medium"
+          },
+          "cost": "Enterprise Licensing"
+        },
+        {
+          "name": "Talend Data Prep",
+          "ratings": {
+            "AR": "Medium",
+            "AT": "Medium",
+            "AU": "Medium"
+          },
+          "cost": "Subscription"
+        }
+      ]
+    },
+    "Custom Model Development Tools": {
+      "tools": [
+        {
+          "name": "TensorFlow",
+          "ratings": {
+            "AR": "High",
+            "AT": "High",
+            "AU": "High"
+          },
+          "cost": "Free/Open-source"
+        },
+        {
+          "name": "PyTorch",
+          "ratings": {
+            "AR": "High",
+            "AT": "High",
+            "AU": "High"
+          },
+          "cost": "Free/Open-source"
+        },
+        {
+          "name": "Hugging Face",
+          "ratings": {
+            "AR": "Medium",
+            "AT": "High",
+            "AU": "High"
+          },
+          "cost": "Freemium/Subscription"
+        }
+      ]
+    },
+    "MLOps Platforms": {
+      "tools": [
+        {
+          "name": "MLflow",
+          "ratings": {
+            "AR": "High",
+            "AT": "High",
+            "AU": "Medium"
+          },
+          "cost": "Free/Open-source"
+        },
+        {
+          "name": "Kubeflow",
+          "ratings": {
+            "AR": "High",
+            "AT": "High",
+            "AU": "Medium"
+          },
+          "cost": "Free/Open-source"
+        },
+        {
+          "name": "Domino Data Lab",
+          "ratings": {
+            "AR": "High",
+            "AT": "High",
+            "AU": "Medium"
+          },
+          "cost": "Enterprise Licensing"
+        }
+      ]
+    },
+    "Semantic Search & Vector Databases": {
+      "tools": [
+        {
+          "name": "Pinecone",
+          "ratings": {
+            "AR": "High",
+            "AT": "High",
+            "AU": "Medium"
+          },
+          "cost": "Freemium/Subscription"
+        },
+        {
+          "name": "Weaviate",
+          "ratings": {
+            "AR": "High",
+            "AT": "High",
+            "AU": "Medium"
+          },
+          "cost": "Free/Open-source"
+        },
+        {
+          "name": "Vespa",
+          "ratings": {
+            "AR": "High",
+            "AT": "High",
+            "AU": "Medium"
+          },
+          "cost": "Free/Open-source"
+        }
+      ]
+    },
+    "Recommendation Systems": {
+      "tools": [
+        {
+          "name": "Amazon Personalize",
+          "ratings": {
+            "AR": "Medium",
+            "AT": "High",
+            "AU": "High"
+          },
+          "cost": "Pay-as-you-go"
+        },
+        {
+          "name": "Coveo",
+          "ratings": {
+            "AR": "Medium",
+            "AT": "High",
+            "AU": "High"
+          },
+          "cost": "Enterprise Licensing"
+        },
+        {
+          "name": "Dynamic Yield",
+          "ratings": {
+            "AR": "Medium",
+            "AT": "High",
+            "AU": "High"
+          },
+          "cost": "Enterprise Licensing"
+        }
+      ]
+    },
+    "Enterprise Knowledge Management AI": {
+      "tools": [
+        {
+          "name": "Notion AI",
+          "ratings": {
+            "AR": "Low",
+            "AT": "Medium",
+            "AU": "Medium"
+          },
+          "cost": "Freemium/Subscription"
+        },
+        {
+          "name": "Guru",
+          "ratings": {
+            "AR": "Low",
+            "AT": "Medium",
+            "AU": "Medium"
+          },
+          "cost": "Subscription"
+        },
+        {
+          "name": "Confluence AI",
+          "ratings": {
+            "AR": "Low",
+            "AT": "High",
+            "AU": "Medium"
+          },
+          "cost": "Subscription"
+        }
+      ]
+    },
+    "Collaboration AI Enhancements": {
+      "tools": [
+        {
+          "name": "Notion AI",
+          "ratings": {
+            "AR": "Low",
+            "AT": "Medium",
+            "AU": "Medium"
+          },
+          "cost": "Freemium/Subscription"
+        },
+        {
+          "name": "Slack AI",
+          "ratings": {
+            "AR": "Low",
+            "AT": "High",
+            "AU": "High"
+          },
+          "cost": "Subscription"
+        },
+        {
+          "name": "MS Teams Copilot",
+          "ratings": {
+            "AR": "Low",
+            "AT": "High",
+            "AU": "High"
+          },
+          "cost": "Enterprise Licensing"
+        }
+      ]
+    },
+    "Conversational AI / Chatbots": {
+      "tools": [
+        {
+          "name": "Intercom AI",
+          "ratings": {
+            "AR": "Low",
+            "AT": "High",
+            "AU": "High"
+          },
+          "cost": "Subscription"
+        },
+        {
+          "name": "Drift",
+          "ratings": {
+            "AR": "Low",
+            "AT": "High",
+            "AU": "High"
+          },
+          "cost": "Subscription"
+        },
+        {
+          "name": "Ada",
+          "ratings": {
+            "AR": "Low",
+            "AT": "High",
+            "AU": "High"
+          },
+          "cost": "Subscription"
+        }
+      ]
+    },
+    "Virtual Voice Agents": {
+      "tools": [
+        {
+          "name": "Observe.ai",
+          "ratings": {
+            "AR": "Medium",
+            "AT": "High",
+            "AU": "High"
+          },
+          "cost": "Enterprise Licensing"
+        },
+        {
+          "name": "Talkdesk AI",
+          "ratings": {
+            "AR": "Medium",
+            "AT": "High",
+            "AU": "High"
+          },
+          "cost": "Enterprise Licensing"
+        },
+        {
+          "name": "Five9 IVA",
+          "ratings": {
+            "AR": "Medium",
+            "AT": "High",
+            "AU": "High"
+          },
+          "cost": "Enterprise Licensing"
+        }
+      ]
+    },
+    "Sentiment & Emotion Analysis AI": {
+      "tools": [
+        {
+          "name": "MonkeyLearn",
+          "ratings": {
+            "AR": "Medium",
+            "AT": "Medium",
+            "AU": "Medium"
+          },
+          "cost": "Freemium/Subscription"
+        },
+        {
+          "name": "Clarabridge",
+          "ratings": {
+            "AR": "Medium",
+            "AT": "High",
+            "AU": "High"
+          },
+          "cost": "Enterprise Licensing"
+        },
+        {
+          "name": "Brandwatch AI",
+          "ratings": {
+            "AR": "Medium",
+            "AT": "High",
+            "AU": "High"
+          },
+          "cost": "Enterprise Licensing"
+        }
+      ]
+    },
+    "Personalization Engines": {
+      "tools": [
+        {
+          "name": "Optimizely",
+          "ratings": {
+            "AR": "Medium",
+            "AT": "High",
+            "AU": "Medium"
+          },
+          "cost": "Subscription"
+        },
+        {
+          "name": "Persado",
+          "ratings": {
+            "AR": "Medium",
+            "AT": "High",
+            "AU": "High"
+          },
+          "cost": "Enterprise Licensing"
+        },
+        {
+          "name": "Adobe Target AI",
+          "ratings": {
+            "AR": "High",
+            "AT": "High",
+            "AU": "High"
+          },
+          "cost": "Enterprise Licensing"
+        }
+      ]
+    },
+    "Identity & Access AI": {
+      "tools": [
+        {
+          "name": "Okta AI",
+          "ratings": {
+            "AR": "Medium",
+            "AT": "High",
+            "AU": "High"
+          },
+          "cost": "Enterprise Licensing"
+        },
+        {
+          "name": "Ping Identity",
+          "ratings": {
+            "AR": "Medium",
+            "AT": "High",
+            "AU": "High"
+          },
+          "cost": "Enterprise Licensing"
+        },
+        {
+          "name": "Microsoft Entra",
+          "ratings": {
+            "AR": "Medium",
+            "AT": "High",
+            "AU": "High"
+          },
+          "cost": "Enterprise Licensing"
+        }
+      ]
+    },
+    "AI Governance & Ethical AI Tools": {
+      "tools": [
+        {
+          "name": "Fiddler AI",
+          "ratings": {
+            "AR": "High",
+            "AT": "Medium",
+            "AU": "Medium"
+          },
+          "cost": "Subscription"
+        },
+        {
+          "name": "Arthur AI",
+          "ratings": {
+            "AR": "High",
+            "AT": "Medium",
+            "AU": "Medium"
+          },
+          "cost": "Subscription"
+        },
+        {
+          "name": "TruEra",
+          "ratings": {
+            "AR": "High",
+            "AT": "Medium",
+            "AU": "Medium"
+          },
+          "cost": "Subscription"
+        }
+      ]
+    },
+    "Knowledge Capture AI": {
+      "tools": [
+        {
+          "name": "Obsidian AI",
+          "ratings": {
+            "AR": "Medium",
+            "AT": "Medium",
+            "AU": "Medium"
+          },
+          "cost": "Freemium/Subscription"
+        },
+        {
+          "name": "Roam Research",
+          "ratings": {
+            "AR": "Medium",
+            "AT": "Medium",
+            "AU": "Medium"
+          },
+          "cost": "Subscription"
+        },
+        {
+          "name": "Mem AI",
+          "ratings": {
+            "AR": "Low",
+            "AT": "Medium",
+            "AU": "Medium"
+          },
+          "cost": "Freemium/Subscription"
+        }
+      ]
+    },
+    "Legal/Compliance AI": {
+      "tools": [
+        {
+          "name": "Casetext",
+          "ratings": {
+            "AR": "Medium",
+            "AT": "Medium",
+            "AU": "High"
+          },
+          "cost": "Subscription"
+        },
+        {
+          "name": "Luminance AI",
+          "ratings": {
+            "AR": "Medium",
+            "AT": "High",
+            "AU": "High"
+          },
+          "cost": "Enterprise Licensing"
+        },
+        {
+          "name": "PatSnap",
+          "ratings": {
+            "AR": "Medium",
+            "AT": "High",
+            "AU": "High"
+          },
+          "cost": "Enterprise Licensing"
+        }
+      ]
+    },
+    "Healthcare Diagnostics AI": {
+      "tools": [
+        {
+          "name": "Aidoc",
+          "ratings": {
+            "AR": "High",
+            "AT": "High",
+            "AU": "High"
+          },
+          "cost": "Enterprise Licensing"
+        },
+        {
+          "name": "Zebra Medical Vision",
+          "ratings": {
+            "AR": "High",
+            "AT": "High",
+            "AU": "High"
+          },
+          "cost": "Enterprise Licensing"
+        },
+        {
+          "name": "PathAI",
+          "ratings": {
+            "AR": "High",
+            "AT": "High",
+            "AU": "High"
+          },
+          "cost": "Enterprise Licensing"
+        }
+      ]
+    }
+  }
+}
