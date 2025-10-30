@@ -1,27 +1,15 @@
-# AI Tool Selector
+# AI Tool Selector (Streamlit)
 
-A simple static web app that helps select AI Tool Types and recommended AI tools based on a chosen business function.
-
-This package was generated from the user's AI Tool Matrix document.
-
-## How it works
-
-- Choose a **Business Function** from the first dropdown.
-- The app shows **AI Tool Types** applicable to that function.
-- Choose a Tool Type to see recommended tools (links included).
+A lightweight Streamlit app to explore recommended AI tools by business function.
 
 ## Run locally
-
-Open `index.html` in any modern web browser or serve the folder with a static server, e.g.:
-
 ```bash
-# Python 3
-python -m http.server 8000
-# then open http://localhost:8000
+pip install -r requirements.txt
+streamlit run app.py
 ```
 
-## Files
-- `index.html` - main UI
-- `app.js` - client-side logic
-- `styles.css` - styling
-- `data/tools.json` - mapping of functions -> tool types -> tools
+## Deploy on Streamlit Cloud
+1. Push this project to GitHub.
+2. Go to https://share.streamlit.io
+3. Choose your repo.
+4. Set main file path to `app.py`.

@@ -1,188 +1,6 @@
 {
-  "Business Planning": {
-    "AI Tool Types": {
-      "AI Assistant / Strategy": [
-        {
-          "name": "ChatGPT (OpenAI)",
-          "url": "https://chatgpt.com/"
-        },
-        {
-          "name": "Microsoft 365 Copilot",
-          "url": "https://www.microsoft.com/en-ww/microsoft-365/collaboration"
-        },
-        {
-          "name": "Claude / Anthropic",
-          "url": "https://claude.ai/"
-        }
-      ],
-      "Business Intelligence / Analytics": [
-        {
-          "name": "Tableau",
-          "url": "https://www.tableau.com/"
-        },
-        {
-          "name": "Power BI Copilot",
-          "url": "https://learn.microsoft.com/en-us/power-bi/create-reports/copilot-overview"
-        },
-        {
-          "name": "DataRobot",
-          "url": "https://www.datarobot.com/"
-        }
-      ]
-    }
-  },
-  "Market Research": {
-    "AI Tool Types": {
-      "Market & Consumer Research": [
-        {
-          "name": "GWI Spark",
-          "url": "https://www.gwi.com/"
-        },
-        {
-          "name": "Quantilope",
-          "url": "https://www.quantilope.com/"
-        },
-        {
-          "name": "Brandwatch",
-          "url": "https://www.brandwatch.com/"
-        }
-      ],
-      "Social Listening & SEO": [
-        {
-          "name": "Semrush",
-          "url": "https://www.semrush.com/"
-        },
-        {
-          "name": "Ahrefs",
-          "url": "https://ahrefs.com/"
-        }
-      ]
-    }
-  },
-  "Financial Modelling": {
-    "AI Tool Types": {
-      "Accounting & Bookkeeping": [
-        {
-          "name": "QuickBooks (AI features)",
-          "url": "https://quickbooks.intuit.com/"
-        },
-        {
-          "name": "Pilot (bookkeeping)",
-          "url": "https://pilot.com/"
-        }
-      ],
-      "FP&A & Forecasting": [
-        {
-          "name": "Planful",
-          "url": "https://planful.com/"
-        },
-        {
-          "name": "Pry (startup planning)",
-          "url": "https://pry.co/"
-        }
-      ],
-      "Financial Analytics": [
-        {
-          "name": "Kensho (S&P Global)",
-          "url": "https://www.kensho.com/"
-        },
-        {
-          "name": "H2O.ai",
-          "url": "https://h2o.ai/"
-        }
-      ]
-    }
-  },
-  "Legal Compliance": {
-    "AI Tool Types": {
-      "Contract Review / CLM": [
-        {
-          "name": "LawGeex",
-          "url": "https://www.lawgeex.com/"
-        },
-        {
-          "name": "Klarity AI",
-          "url": "https://www.klarity.ai/"
-        }
-      ],
-      "Legal Assistance / Consumer": [
-        {
-          "name": "DoNotPay",
-          "url": "https://donotpay.com/"
-        }
-      ]
-    }
-  },
-  "Operations": {
-    "AI Tool Types": {
-      "Workflow Automation / Integration": [
-        {
-          "name": "Zapier (AI Actions)",
-          "url": "https://zapier.com/"
-        },
-        {
-          "name": "UiPath (RPA)",
-          "url": "https://www.uipath.com/"
-        }
-      ],
-      "Knowledge & Collaboration": [
-        {
-          "name": "Notion AI",
-          "url": "https://www.notion.so/product/ai"
-        },
-        {
-          "name": "ClickUp AI",
-          "url": "https://clickup.com/ai"
-        }
-      ]
-    }
-  },
-  "Product Development": {
-    "AI Tool Types": {
-      "Design & Prototyping": [
-        {
-          "name": "Figma AI",
-          "url": "https://www.figma.com/ai"
-        },
-        {
-          "name": "Canva AI",
-          "url": "https://www.canva.com/ai/"
-        }
-      ],
-      "Code Generation / Dev Assist": [
-        {
-          "name": "GitHub Copilot",
-          "url": "https://github.com/features/copilot"
-        },
-        {
-          "name": "Replit Ghostwriter",
-          "url": "https://replit.com/site/ghostwriter"
-        }
-      ],
-      "ML & Model Tools": [
-        {
-          "name": "TensorFlow",
-          "url": "https://www.tensorflow.org/"
-        },
-        {
-          "name": "Hugging Face",
-          "url": "https://huggingface.co/"
-        }
-      ]
-    }
-  },
   "Marketing": {
     "AI Tool Types": {
-      "Marketing Automation & Personalization": [
-        {
-          "name": "HubSpot Marketing Hub",
-          "url": "https://www.hubspot.com/products/marketing"
-        },
-        {
-          "name": "Salesforce Marketing Cloud (Einstein)",
-          "url": "https://www.salesforce.com/solutions/marketing-cloud/"
-        }
-      ],
       "Creative & Content": [
         {
           "name": "Jasper",
@@ -193,14 +11,20 @@
           "url": "https://www.copy.ai/"
         }
       ],
-      "Ad & Targeting Optimization": [
+      "Ad Optimization": [
         {
           "name": "Persado",
           "url": "https://www.persado.com/"
-        },
+        }
+      ]
+    }
+  },
+  "Finance": {
+    "AI Tool Types": {
+      "Forecasting": [
         {
-          "name": "Adobe Target (AI)",
-          "url": "https://business.adobe.com/products/target/adobe-target.html"
+          "name": "Planful",
+          "url": "https://planful.com/"
         }
       ]
     }
