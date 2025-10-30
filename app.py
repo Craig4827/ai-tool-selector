@@ -1,82 +1,97 @@
-
 import streamlit as st
 import json
+from html import escape
 
-st.set_page_config(page_title="AI Tool Selector Pro", page_icon="🤖", layout="centered")
+st.set_page_config(page_title="AI Tool Selector — Updated", page_icon="🤖", layout="centered")
 
+# load snapshot JSON
 with open("data/tools_snapshot.json", "r") as f:
     data = json.load(f)
 
-st.title("🤖 AI Tool Selector — Snapshot (JSON)")
+st.title("🤖 AI Tool Selector — Updated (3-step flow)")
+st.write("Follow the steps: 1) Select Business Function → 2) Select AI Tool Type → 3) View recommended tools with ratings and cost.")
 
-# search bar for tools
-query = st.text_input("Search tools or activities (optional)")
+# Step 1: select business function
+bfuncs = sorted(data.get("business_functions", {}).keys())
+bfunc = st.selectbox("1) Select Business Function", [""] + bfuncs, help="Choose the business function you want to support")
 
-bfuncs = sorted(list(data.get("business_functions", {}).keys()))
-bfunc = st.selectbox("Business Function", [""] + bfuncs)
+if not bfunc:
+    st.info("Please select a Business Function to proceed to Step 2.")
+    st.stop()
 
-if bfunc:
-    tool_types = sorted(list(data["business_functions"][bfunc].keys()))
-    tt = st.selectbox("AI Tool Type", [""] + tool_types)
-    if tt:
-        st.subheader(f"Tools for {tt}")
-        tools = data["business_functions"][bfunc][tt].get("tools", [])
-        
-        # optional filtering by rating level
-        rating_filter = st.multiselect("Filter by rating values (text)", options=["High", "Medium", "Low"], default=[])
-        # sort options
-        sort_by = st.selectbox("Sort tools by", ["Default", "Name", "Cost"])
-        
-        def rating_match(tool):
-            if not rating_filter:
-                return True
-            # Check any rating field contains one of the selected filters
-            vals = [v for v in tool.get("ratings", {}).values()]
-            for rf in rating_filter:
-                if any(str(v).strip().lower() == rf.lower() for v in vals):
-                    return True
-            return False
-        
-        # apply query filter
-        out_tools = []
-        for t in tools:
-            if query:
-                q = query.lower()
-                if q in t["name"].lower() or any(q in a.lower() for a in t.get("activities", [])) :
-                    pass
-                else:
-                    continue
-            if rating_match(t):
-                out_tools.append(t)
-        
-        # sorting
-        if sort_by == "Name":
-            out_tools = sorted(out_tools, key=lambda x: x["name"].lower())
-        elif sort_by == "Cost":
-            out_tools = sorted(out_tools, key=lambda x: x.get("cost") or "")
-        
-        if not out_tools:
-            st.info("No tools match the selected filters.")
-        else:
-            for t in out_tools:
-                with st.expander(t["name"]):
-                    cols = st.columns([2,1])
-                    with cols[0]:
-                        st.write("**Ratings:**")
-                        rr = t.get("ratings", {})
-                        if rr:
-                            for k,v in rr.items():
-                                st.markdown(f"- **{k}** : {v}")
-                        else:
-                            st.write("No rating available.")
-                        st.write("**Activities:**")
-                        # activities are only present at the business function -> type level; try to display from that level
-                        b_acts = data["business_functions"][bfunc][tt].get("activities", [])
-                        if b_acts:
-                            for a in b_acts:
-                                st.write(f"- {a}")
-                    with cols[1]:
-                        st.write("**Cost**")
-                        st.write(t.get("cost") or "Unknown")
-                        st.markdown("""<br>""", unsafe_allow_html=True)
-                        st.button(f"Select {t['name']}", key=f"select_{t['name']}")
+# Step 2: show applicable AI Tool Types for selected business function
+tool_types = sorted(list(data["business_functions"].get(bfunc, {}).keys()))
+tt = st.selectbox("2) Select AI Tool Type (applicable to the chosen Business Function)", [""] + tool_types, help="Tool types that are applicable for the selected business function")
+
+if not tt:
+    st.info("Please select an AI Tool Type to see recommended tools.")
+    st.stop()
+
+# Step 3: show recommended tools for selected tool type
+st.subheader(f"3) Recommended AI Tools for **{tt}** (under **{bfunc}**)")
+tools = data["business_functions"][bfunc][tt].get("tools", [])
+
+if not tools:
+    st.warning("No tools found for this selection.")
+else:
+    # Optional: allow user to filter by rating text (High/Medium/Low) or cost
+    cols_filter = st.columns([1,1,2])
+    with cols_filter[0]:
+        rating_filter = st.multiselect("Filter by rating", options=["High","Medium","Low"], help="Filter tools by rating text values (if available)")
+    with cols_filter[1]:
+        cost_filter = st.multiselect("Filter by cost (text)", options=sorted(list({t.get('cost') or 'Unknown' for t in tools})))
+    with cols_filter[2]:
+        search_q = st.text_input("Search tool name (optional)")
+
+    def rating_match(tool):
+        if not rating_filter:
+            return True
+        vals = [str(v).strip().lower() for v in tool.get("ratings", {}).values() if v is not None]
+        return any(r.lower() in vals for r in rating_filter)
+
+    def cost_match(tool):
+        if not cost_filter:
+            return True
+        return (tool.get("cost") or "Unknown") in cost_filter
+
+    # Apply filters
+    filtered = []
+    for t in tools:
+        if search_q and search_q.lower() not in t.get("name","").lower():
+            continue
+        if not rating_match(t):
+            continue
+        if not cost_match(t):
+            continue
+        filtered.append(t)
+
+    if not filtered:
+        st.info("No tools match your filters.")
+    else:
+        # Display each tool with ratings and cost
+        for t in filtered:
+            name = t.get("name")
+            ratings = t.get("ratings", {})
+            cost = t.get("cost") or "Unknown"
+            # Render a nice card-like block using markdown and columns
+            st.markdown(f"""
+            <div style="border:1px solid #e6e9ef; padding:12px; border-radius:8px; margin-bottom:10px; background: #ffffff;">
+              <div style="display:flex; justify-content:space-between; align-items:center;">
+                <div style="font-size:18px; font-weight:700;">{escape(name)}</div>
+                <div style="font-size:14px; color:#555;">Cost: <strong>{escape(cost)}</strong></div>
+              </div>
+              <div style="margin-top:8px;">
+            """, unsafe_allow_html=True)
+            # Ratings table
+            if ratings:
+                for k,v in ratings.items():
+                    # Color-code High/Medium/Low
+                    val = str(v).strip()
+                    color = "#2d9f5b" if val.lower()=="high" else ("#f2994a" if val.lower()=="medium" else ("#eb5757" if val.lower()=="low" else "#777"))
+                    st.markdown(f"<span style='display:inline-block; padding:4px 8px; border-radius:6px; background:#f4f6fb; margin-right:6px;'><strong>{escape(k)}</strong>: <span style='color:{color};'>{escape(val)}</span></span>", unsafe_allow_html=True)
+            else:
+                st.write("No ratings available.")
+            st.markdown("</div></div>", unsafe_allow_html=True)
+
+st.markdown('---')
+st.caption('Snapshot-based app. To update data, regenerate the JSON snapshot from the Excel.')
